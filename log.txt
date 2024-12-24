@@ -1,0 +1,843 @@
+commit 5504cf4c7247da9ed110b109f099a93c64060666
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Jun 23 19:10:01 2020 +0200
+
+    Add screenshots & readme file
+
+commit 43f091fa3f3fef9448cbb85754b13ec9d2b1ebf1
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Fri Dec 16 19:08:45 2016 +0100
+
+    Fixed an issue with coordinate system (it was not right-handed).
+
+commit 13f95bf8a2a08650048f5b9beb90b8329db87116
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Dec 8 13:25:19 2016 +0100
+
+    Added helper features to manual path editor. Fixed some warnings.
+    
+    Updates #50.
+
+commit 47747c111e1f330b78105e34475fb616c426317e
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Dec 8 13:20:41 2016 +0100
+
+    Faculty logo manually created.
+    
+    Closes #50.
+
+commit 6f43c89e657db9ea210c9797a8ab27fa8f91d047
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Dec 6 22:37:26 2016 +0100
+
+    Manual path editing: live preview, signature path created.
+    
+    Updates #50.
+
+commit 24a8da8c6b451fa11d1041552fef61cf02e7d16f
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Dec 6 21:00:43 2016 +0100
+
+    Manual program creation tool: steps organization, loading, saving
+    
+    Updates #50
+
+commit 1a84d12e421541ca72cb48367a2747d32fd7c2e5
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Dec 6 17:42:04 2016 +0100
+
+    Very basic decal preview tool
+    
+    Closed #49
+
+commit 975ececba8e5e07b982e3cb728fe252fae0d6146
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Dec 4 21:56:26 2016 +0100
+
+    Loaded path preview
+    
+    Closed #48.
+
+commit a9aeb3d432dfc57ad718f69746fe0f827c91d33a
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Dec 4 13:05:56 2016 +0100
+
+    Improved precise milling with check surfaces
+
+commit 900fdb3b67ff574317b583911b6f11b7928575ff
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Dec 1 20:22:57 2016 +0100
+
+    Better algorithm for cutting out material from hole
+
+commit f10eda2dd5384d0d8670762a743e544e52f439b2
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Fri Nov 18 17:13:27 2016 +0100
+
+    Extracted framework into separate repository
+    
+    Closed #40.
+
+commit cf6d09ef36d57162171ca6ec92414fb9ce9c2575
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Nov 17 21:36:51 2016 +0100
+
+    Mixed commit, some minor changes, epsilon changes etc.
+
+commit 8364af05ca10046c51b5221103c54e8c81c86879
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Nov 17 18:52:12 2016 +0100
+
+    Extracted Framework source files to another source list
+    
+    Updates #40
+
+commit e6f5801e0ae6cad06c15634f3944f495609cc0fa
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Nov 17 18:51:44 2016 +0100
+
+    Added missing files (EquidistantParametricSurface)
+    
+    Updates #34.
+
+commit 7da1eae1cd8a546b93d37749816795fd427690ca
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Nov 17 18:44:14 2016 +0100
+
+    Equidistant surfaces support
+    
+    Updates #34.
+
+commit 6b6c3eca97da57ff027e74a2f069c6b636aeb033
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Nov 17 15:59:17 2016 +0100
+
+    Edge refinement first try - wrong one
+    
+    Updates #34.
+
+commit 9cf45ef9f667e41853a2c5f4e1fdcad80b310712
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Wed Nov 16 22:01:59 2016 +0100
+
+    Cleaning up a base between handle a body
+    
+    There are still some damages from previous sweeps. Fixed a bug with
+    scanlines - success of algorithm was random. Closed #47.
+
+commit 654b2b316ff69ce47c2773468fcad1604975acc2
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Wed Nov 16 20:14:22 2016 +0100
+
+    Precise milling with check surface support
+    
+    Closed #33.
+
+commit 50462b705854139d4de3135a37b45ab3fd14fc18
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Wed Nov 16 16:44:55 2016 +0100
+
+    Finding a contour for body
+    
+    There is a bug in body milling which makes a tool to go to NaN state.
+    Updates #33.
+
+commit cc1a58f9d4f0153654b3d87f9cbc5182e1d03148
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Nov 15 22:47:19 2016 +0100
+
+    Precise milling for drill and handle
+    
+    Updates #33.
+
+commit 18d7ec563bf69f6df254198d7616528bbbe44a3c
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Nov 15 20:59:55 2016 +0100
+
+    Parametric boundaries for precise milling (for drill and handle)
+    
+    Updates #33.
+
+commit 588571167f18d09b5ab36206a2bcc399c36476ed
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Nov 14 22:52:11 2016 +0100
+
+    Preparation for exact milling
+    
+    Created preview for parametric-space intersections. Updates #33.
+
+commit 2c8bf884edc4a98acd42be62e4dc4aed3ffa8895
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Nov 14 18:25:16 2016 +0100
+
+    Calculating path for flat milling on empty areas
+    
+    Closed #31.
+
+commit 1656cacc48faa782c5e1f73d74cebd9b29491c11
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Nov 14 13:53:32 2016 +0100
+
+    Zig-zag subdivision
+    
+    Updates #31.
+
+commit 3873fec3f5cd43b362e51e95895655b7a70bb7c0
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Nov 14 12:48:24 2016 +0100
+
+    Basic zig-zagging (makes flat surface destroying the object)
+    
+    Updates #31.
+
+commit afbb9c85335ce6913c7546a7a2cdb205bc123443
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Nov 14 10:56:08 2016 +0100
+
+    Preprocessing intersections after requesting
+
+commit d4b7afbef76783e8bbe8d8d36bfcab8355b2a0cc
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Nov 13 22:43:36 2016 +0100
+
+    Base-object border refinement using flat tool
+    
+    Closed #32.
+
+commit b9db8dace6432012e27238ef6520ac11d285db72
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Nov 13 19:26:58 2016 +0100
+
+    Contours joined in VERY specific manner (to one model)
+    
+    Closed #46.
+
+commit 72830e6bb950728a175d5c70892cca96e0dbf11e
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Nov 13 18:24:07 2016 +0100
+
+    Curve simplifier fix
+
+commit 661089ec3ebfb2bdf51062e9aa1e590ea14bf4e7
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Nov 13 17:48:18 2016 +0100
+
+    Path simplifier extracted from Rough Milling component
+
+commit f3827298ff3542d49211d13c5ae38741e1ca4597
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Nov 13 17:26:24 2016 +0100
+
+    Contour merger class skel. integrated with intersection handler
+    
+    Updates #46.
+
+commit 465fb28af1451d0abe94bddc6dfd01ed956dca2a
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Nov 13 17:03:23 2016 +0100
+
+    Hidden bspline virtual base mesh
+
+commit 43a547efb291e98c87909bd5524a5effdb58019a
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Nov 13 16:57:15 2016 +0100
+
+    Quadtree
+
+commit 7473c133aec7464ae97a5b0403206b06704c1653
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Nov 13 16:56:02 2016 +0100
+
+    Segment-segment intersections
+
+commit 4e4bee82c26714a3e756f2aca60914c60a99d4fc
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sat Nov 12 21:07:51 2016 +0100
+
+    Removed leftover outdated comment.
+
+commit 11128f21c4ff2a0df38dfa01c7232ad10efc2012
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sat Nov 12 21:06:27 2016 +0100
+
+    Finding all intersections on model (along with shifted contour)
+    
+    Updates #31, #32.
+
+commit 2740c85abe2d73ae49c9b100633a8d5b6fa77bb3
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sat Nov 12 21:05:23 2016 +0100
+
+    Fixed a bug with uncorrect Bspline derivative - working intersections.
+    
+    Closed #38.
+
+commit 1e5d9b55b0397e9ea2c3803b1a86473a09dce288
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sat Nov 12 19:35:01 2016 +0100
+
+    Finding contours of an object along with fixes and tools
+    
+    Updates #31, #32, #38.
+    Model space measure probe. Closed #44.
+
+commit 99476ed4b3c7768ba845805b2cb22c881635dd15
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sat Nov 12 16:29:30 2016 +0100
+
+    Looking back and forth for intersection
+    
+    Updates #38.
+
+commit 4e8d45d8bee9cd4943bb4dbe0a9296e4a19dd633
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sat Nov 12 14:05:13 2016 +0100
+
+    Partially working intersections between two surfaces
+    
+    Updates #38.
+
+commit 6a017b7e38918f9f2078bb5b3d2fbb6ac0e60815
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Nov 8 22:33:12 2016 +0100
+
+    Tidying up the interface of design mode
+    
+    Reenabled gizmos and made a checkbox for limits.
+
+commit a34d3285b89ba4be16c5d648eaba950c222b9e39
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Nov 8 22:32:34 2016 +0100
+
+    Displaying polygonal line
+    
+    Closed #43.
+
+commit c75536978c9771555a677bc58b96ade3611bf975
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Nov 8 19:50:34 2016 +0100
+
+    Fast approximate milling with preview
+    
+    Closes #30. Updates #41.
+
+commit a075c5fae2db358f6eeb05cbe32bd4e4b146bf8e
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Nov 7 21:09:58 2016 +0100
+
+    Bspline curve reparametrization
+    
+    Closed #42.
+
+commit 0c0cdc1e9e16756cf6595b8676ac41e8044f984f
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sat Nov 5 22:18:58 2016 +0100
+
+    Normal calculation for Bspline surface
+    
+    Closed #37.
+
+commit 2ba2862a50f2bedd5477779acfbe96cefea37c1f
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sat Nov 5 19:28:28 2016 +0100
+
+    Constant parameter curve on surface
+    
+    Closed #39.
+
+commit 43fd821447fa0a813d63dcf537c82e8c4d5811c6
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Fri Nov 4 21:45:44 2016 +0100
+
+    Creating a block with base height marker along with normalized model
+    
+    Commit contains hardcodes values for my chosen model. Closed #36.
+
+commit 5ca484d5bc1fb9261e8ed346f798a7a5ca637a01
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Fri Nov 4 08:23:52 2016 +0100
+
+    Ability to switch between simulation and design mode
+    
+    Closed #35.
+
+commit 8290e08c6f9340b1286c9277991d4b2c3a5dd7c0
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Nov 3 18:11:02 2016 +0100
+
+    Transforming a loaded model
+    
+    Closed #29
+
+commit d91dc30d4574c26cfadc31f725a20d73ba2d9c09
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Nov 3 17:32:42 2016 +0100
+
+    ImGuizmo dependency added
+    
+    Updates #29
+
+commit 23e3b608313f2199ab7644231d7877b00e3635f6
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Nov 3 17:24:36 2016 +0100
+
+    Imporing a model from Cadio, Bspline surf bugfixes
+    
+    Closed #28
+
+commit 568508a178424528d02fad993313010243d750ec
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Nov 3 13:19:37 2016 +0100
+
+    Bspline surface folding
+    
+    Updates #28.
+
+commit 6a2ba45ee726d65572ae27ab221eca09b89fee4f
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Nov 3 12:16:48 2016 +0100
+
+    Bspline non-vanishing interval reparametrization
+    
+    Updates #28.
+
+commit e953e8e26ab3b05c7e13558982bf8c80352a9fb5
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Nov 3 11:23:59 2016 +0100
+
+    Parametric surfaces mesh builder w/ simple demo
+    
+    Updates #28.
+
+commit 09cb20a5097760fcbeb7c4b40d10697426e08b74
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Nov 1 22:31:39 2016 +0100
+
+    Bspline surface evaluation - suboptimal solution
+    
+    Updates #28.
+
+commit 7257fb193ad85d256a7217b1634a883537dc1e70
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Nov 1 19:48:56 2016 +0100
+
+    Bspline basis, knots, linear combinations
+    
+    Updates #28.
+
+commit 394e93a1bf9bcaa7e0082a9fcfc2b46e1bd08f6d
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sat Oct 29 17:50:11 2016 +0200
+
+    Integrated with Google Test
+
+commit 004f2c94a6e93e3582f729b13de212d4b1734c19
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 22:43:00 2016 +0200
+
+    Support for box sizes different than default
+    
+    Closed #27.
+
+commit 0278911ea351afdf00d404c2ef177358d00d6276
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 21:44:41 2016 +0200
+
+    Removed debug message regarding found path files.
+
+commit 2545944f17c65ec73d5827c0380a163b937a9874
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 20:50:31 2016 +0200
+
+    Changed default safe zone level
+    
+    Closed #26.
+
+commit f5f76befa9ce13a2ca9571e880d30c9fc6a4f13c
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 20:43:08 2016 +0200
+
+    Speed controls are now predictable
+    
+    Closed #4.
+
+commit 2b50e41d1a99263ec053fd4b9630d3653ca4a346
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 19:27:41 2016 +0200
+
+    Improved speed of fast-forward
+
+commit 6346657a09b30c0931149ffb38b34edfac813f20
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 19:12:40 2016 +0200
+
+    Fast tool movement support
+    
+    Closed #1.
+
+commit d64817787e9601886b17429fb269fb8aee0ee6a5
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 18:43:57 2016 +0200
+
+    Chunk of work has to be less than 50ms per frame.
+    
+    Closed #22.
+
+commit 85019a2dc564240e8b8a18d36b6ab4b0f955d7a3
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 17:49:59 2016 +0200
+
+    Errors are no longer ignored during fast-forward
+    
+    Quick workaround for that issue. This issue should be readressed in the
+    future. Closed #16.
+
+commit f3ab406abf975afc5e6c53aed47f596c00a92243
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 13:44:07 2016 +0200
+
+    Removed debug outputs
+
+commit 33bc9d0a2bf96708edc7ad513c5bbe24ba5dbf03
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 13:18:16 2016 +0200
+
+    Changed title bar text
+    
+    Closed #23.
+
+commit e49311baa4e69041c96da61a3a535b736ab2ac64
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 13:16:40 2016 +0200
+
+    Error causes movement abort without move to destination
+    
+    Closed #14.
+
+commit a81ec383b35849d9863c505817e5ede5ebeed46d
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 13:11:50 2016 +0200
+
+    Fixed ProgramManagerGUI crash outside visible region
+    
+    Closed #21.
+
+commit c17effecbc72afb697bc331ae92ab0a00993f43f
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 13:03:42 2016 +0200
+
+    Added missing files, fixed flat drilling bug
+    
+    Closed #24.
+
+commit b67a4d2efa469d5d6ab24d18730aa8363533fd5a
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 12:47:56 2016 +0200
+
+    Sampling milling algorithm
+    
+    Basic and slow algorithm that will work as good approximate of milling
+    tool linear movements. It can be useful when movements are not
+    horizontal and more in-depth analysis is required.
+    
+    Closed #18, #20.
+
+commit d28dbe2953b830517cb6e9fc321c6e67ceb60483
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 10:12:00 2016 +0200
+
+    Ambient lighting for block, texture changed
+    
+    Closed #9
+
+commit b23fdc888dc5ae88fb3f8b7ce871b990ca50195f
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 27 09:16:39 2016 +0200
+
+    Dynamic change of cutting tool parameters
+    
+    Closed #19.
+
+commit a1248a4d8e181a00885494ab401dffb67aa0e21b
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Oct 25 17:21:54 2016 +0200
+
+    Visualization of safe milling zone
+    
+    Closed #11.
+
+commit ecc7e75167b5ea16d341f581413bbf199c4293d5
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Oct 25 14:26:40 2016 +0200
+
+    Editing kind of milling tool.
+    
+    Updated #17.
+
+commit d5170a73137cd02bd7bdc2a4b4281fa3d63feae8
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Oct 24 18:02:14 2016 +0200
+
+    Milling is ensured to be in borders
+    
+    Closed #13.
+
+commit b5e99fdab20a53b641ac9a94ef01e27f1cb25e55
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Oct 24 17:30:19 2016 +0200
+
+    Fixed milling misses during fast-forwarding
+    
+    Closed #15.
+
+commit 44cafb28bb3050ffa409fbf4c43ea451b2e62292
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Oct 24 13:09:25 2016 +0200
+
+    Fast forwarding in the milling backend
+    
+    Closed #10.
+
+commit 3d964a94253d65666e66b5413ea1270abc9638e7
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Oct 24 12:56:11 2016 +0200
+
+    Hiding other GUI windows and renderables while fast-forwarding
+    
+    Update #10.
+
+commit 14153a918f62ae2ac7e728a8fc579e1f70df5b5a
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Oct 24 12:16:51 2016 +0200
+
+    Fast-forwarding GUI endpoint
+    
+    Update #10
+
+commit 9f05281e4b17de308ff14996cf16f3d86479e25c
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Oct 24 11:21:09 2016 +0200
+
+    Reporting of incidents regarding milling with flat tool
+    
+    Closed #6.
+
+commit 651b0cc8816fd5bd9ab725d7084e151a773d6f11
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Oct 24 09:01:21 2016 +0200
+
+    Allowed to modify safe milling height. Fixed a bug with an error on end.
+    Closed #12. Updates #6.
+
+commit ea22dd2e2a0c9259bd6af35827cba3c9440df38b
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Oct 23 22:08:03 2016 +0200
+
+    Milling safety: checking if we reach below safe zone (without setting)
+    
+    Issue #6
+
+commit 2d444cd97761a0407a2d12482088e02b57d2a489
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Oct 23 16:34:20 2016 +0200
+
+    Speed controls are not slowing down on dense paths
+    
+    Issue #4 is not completely fixed yet.
+
+commit 537278cf5168d1b9ef084b00f70134ef19445072
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Oct 23 15:21:36 2016 +0200
+
+    Robust algorithm for milling on line segments
+    
+    Closed #7
+
+commit 1dce1923fd1baaa8596276e4fa9759a4231434fa
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Oct 23 14:26:14 2016 +0200
+
+    Creating new block without any cuts.
+    
+    Closed #2
+
+commit 4364211fc902225be08fdd10be828edeb24dd049
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Oct 23 13:03:49 2016 +0200
+
+    Created new block creation GUI
+    
+    Issue #2
+
+commit fbcf0b4ef59635f116ef2971b31b7fb9808e6913
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Oct 23 11:53:12 2016 +0200
+
+    Flat cutting tool support
+    
+    Closed #5
+
+commit 33669e739ca9740fe84ff3011d67bd25576c44a3
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Oct 23 11:28:23 2016 +0200
+
+    Loading programs from files
+    
+    Programs are now loaded from files. Default cutting tool settings are
+    applied to current tool after load.
+
+commit deb91ed5ca45b00040c255e1577b77eb3a892f67
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sat Oct 22 23:38:57 2016 +0200
+
+    Simulation tools mock removed
+
+commit 64cbce4ba9a866507be1ec3dade7625977da4fec
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sat Oct 22 20:22:44 2016 +0200
+
+    Basic controls of execution, paths directory scanning
+
+commit f6eddc0a7a8308fa5c6ce6a6688dc65a44467470
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sat Oct 22 16:19:16 2016 +0200
+
+    Curvature of tool is taken into the account
+
+commit 3eb1d76157de73f8127e0ee434b4d47f46ed8da1
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sat Oct 22 14:43:28 2016 +0200
+
+    Cutting tool cuts through the material in simplest way possible
+
+commit a0ec516d693c16ebe3702e7b39061dd592d85a3d
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Fri Oct 21 18:25:52 2016 +0200
+
+    CMake VisualStudio generation issues on Windows fixed
+
+commit f881f6320eea3e60aceaa2315233e3ceb6ace7b2
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Fri Oct 21 14:04:45 2016 +0200
+
+    Fixed some issues with building on different platforms
+
+commit 581c460e13d04025a4936daf154edb9ef343c12a
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Fri Oct 21 10:37:00 2016 +0200
+
+    Heightmap preview skirt fixed
+
+commit cb33804de42bd00b8bfee4941f2b15deb1bf15bc
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 20 22:23:09 2016 +0200
+
+    Basic heightmap lighting
+
+commit 63337ba6407d6c2d85efd96bd60501667ecf8490
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 20 21:53:00 2016 +0200
+
+    Milling preview is transformed with texture
+
+commit 2a6084caa0023c6c5fb88b60da7383a8dc21aec2
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 20 19:41:05 2016 +0200
+
+    Heightmap refactoring: separate effect, currently always flat, pipeline for heightmap insetion created
+
+commit d38b19c6287a67f5d2480022ccbfc43da6057159
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 20 13:21:16 2016 +0200
+
+    Zooming in and out
+
+commit 5fdeb2ca6c473f0812a6478cc078d821015bd23e
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 20 11:57:14 2016 +0200
+
+    Milling programs loading and execution
+
+commit 65ca2dfcdfc0a88fa67344f89fbbc974245033d6
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Oct 18 21:59:26 2016 +0200
+
+    Heightmap skirt generation
+
+commit f842f18156d6b6414fe703c1f79471fa8f35ca63
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Oct 18 19:58:05 2016 +0200
+
+    Linear movements of a tool
+
+commit 3c66852f1daaeacabae8c0e1eecded3874bf9287
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Oct 18 18:15:25 2016 +0200
+
+    Cutting tool rendering w/ simple animation
+
+commit 0aa3eac375e6c02458c73b4b274c65de75117a81
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Oct 17 21:50:38 2016 +0200
+
+    Milling Tool GUI + Shader class modifications
+
+commit 1b9d124f16c33cb24e6eedb1a6560106fe1ed3b8
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Sun Oct 16 21:18:18 2016 +0200
+
+    Milling tool display started, ImGui improvements + commons
+
+commit fbf2ebaccaec7dd8e90dcf2af818a4780cd6f3e4
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 13 21:21:06 2016 +0200
+
+    Simple Phong shading added
+
+commit 1d539a5c23aeee2e5d2b4c62b57ea0f36f56ce89
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 13 11:00:09 2016 +0200
+
+    Added use method to ShaderProgram
+
+commit cb6b3461d6ee98515598c6c8e93f3b655a983177
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Thu Oct 13 10:59:34 2016 +0200
+
+    Heigthmap dynamic movements
+
+commit ad463285065a833f1dceb599425368323bfbcbd4
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Oct 11 23:34:24 2016 +0200
+
+    Orbiting camera: mouse control with ImGui valid integration
+
+commit b8d8433b85793eb640f48c0eeb8f86c8f9382435
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Oct 11 23:08:38 2016 +0200
+
+    GLFW callbacks forwarding
+
+commit d421057decbf06a576ba9b0aee4ac0210d6226c3
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Oct 11 22:49:24 2016 +0200
+
+    Restructurization, heightmap basic preview
+
+commit 3e0ef237c305bb56775b2545d2349abb86cc1970
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Tue Oct 11 20:01:49 2016 +0200
+
+    Shaders, textures, debug cube scene with fake ImGui
+
+commit 92b07a779d037dd5b31de506a695c4d905d9f391
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Oct 10 22:51:06 2016 +0200
+
+    ImGui integrated
+
+commit a10ddfc0bfc35c25bdc270d913f918b0430d24ca
+Author: Kamil Sienkiewicz <sienkiewiczkm@gmail.com>
+Date:   Mon Oct 10 19:32:43 2016 +0200
+
+    Initial commit: glfw, glad set up. Test window.

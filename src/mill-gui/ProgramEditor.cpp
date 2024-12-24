@@ -96,7 +96,7 @@ void ProgramEditor::update(glm::mat4 view, glm::mat4 proj)
         MillPathFormatWriter writer;
         writer.writeToFile(saveFilePath, _loadedProgram);
     }
-
+/*
     std::vector<std::string> programStepsList{};
     for (auto i = 0; i < _loadedProgram.size(); ++i)
     {
@@ -106,6 +106,23 @@ void ProgramEditor::update(glm::mat4 view, glm::mat4 proj)
     }
 
     ImGui::ListBox("Program steps", &_selectedProgramStep, programStepsList);
+*/
+    std::vector<std::string> programStepsList{};
+    for (auto i = 0; i < _loadedProgram.size(); ++i)
+    {
+        std::stringstream ss;
+        ss << i + 1 << ": " << glm::to_string(_loadedProgram[i].position);
+        programStepsList.push_back(ss.str());
+    }
+
+    // 将 std::vector<std::string> 转换为 const char**
+    std::vector<const char*> programStepsCStr;
+    for (const auto& step : programStepsList)
+    {
+        programStepsCStr.push_back(step.c_str());
+    }
+
+ImGui::ListBox("Program steps", &_selectedProgramStep, programStepsCStr.data(), programStepsList.size());
 
     if (ImGui::Button("Append new"))
     {
